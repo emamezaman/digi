@@ -21,6 +21,10 @@ class Amazing extends Model
          return $this->hasOne(ProductImage::class,'product_id','product_id');
     }
     
+   public function get_images(){
+    return $this->hasMany(Amazing::class,'id','iamge');   
+   }
+    
   
 
 
