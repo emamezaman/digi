@@ -21,9 +21,7 @@ class Amazing extends Model
          return $this->hasOne(ProductImage::class,'product_id','product_id');
     }
     
-    public function git(){
-     echo 'git';   
-    }
+  
 
 
 
